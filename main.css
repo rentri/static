@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+body {
+font-family: "JetBrains Mono", monospace;
+  font-size: 16px;
+
+}
+
+.contain-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftbar {
+    flex: 1;
+    background: #6F7D8C;
+    height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftbar h1 {
+    background-color: #4B2E39;
+    border-radius: 0.2em;
+    /* width: 5 */
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 40%;
+}
+
+.input-field {
+    position: fixed;
+    bottom: 0;
+}
+
+#msg-field {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+#msg-field p{
+    margin-left: 70em;
+    /* background-color: #6C596E; */
+
+}
+
+.message {
+    flex: 2;
+    background-color: #77A0A9;
+}
