@@ -1,6 +1,6 @@
 # Frontend only chatgpt style-UI
 
-to eun clone the repository
+to run clone the repository
 
 `git clone https://github.com/rentri/static.git`
 
